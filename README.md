@@ -36,7 +36,7 @@ A loose triangle consists of three edges whose pairwise intersections are distin
 
 **Paper authors:** Dong Yeap Kang, Abhishek Methuku and Pablo Oviedo.
 
-The repository formalizes the paper’s main prescribed-factor theorem in Lean.
+The repository formalizes the paper’s main theorem in Lean.
 
 **Paper abstract**
 
