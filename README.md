@@ -12,6 +12,8 @@ I work in **probabilistic and extremal combinatorics**.
 
 The repository formalizes the paper’s main theorem in Lean.
 
+[Lean formalisation (Palomar; registered 18 November 2026)](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-18-000003&version=1)
+
 **Paper abstract**
 
 We prove an asymptotically sharp Dirac-type generalization of the
