@@ -50,7 +50,17 @@ The repository formalizes the paper’s independent-set theorem in Lean, assumin
 
 **Paper abstract**
 
-A loose triangle consists of three edges whose pairwise intersections are distinct single vertices. An independent set in a hypergraph is a set of vertices containing no edge. We prove that, for every fixed $r\ge3$, there is a constant $c_r>0$ such that every sufficiently large $n$-vertex hypergraph with no loose triangle and with edge sizes between $3$ and $r$ has an independent set of size at least $c_r n^{2/3}(\log\log n)^{1/3}$. This implies that the Ramsey number of the $r$-uniform loose triangle versus the complete $r$-uniform hypergraph on $t$ vertices is at most $C_r t^{3/2}/\sqrt{\log\log t}$ for a constant $C_r>0$ and all sufficiently large $t$, proving a conjecture of Kostochka, Mubayi and Verstraëte from 2013. The proof chooses vertices randomly while avoiding pairs that lie in many edges, and then deletes vertices to eliminate all triples of edges for which each pair intersects outside the third edge. A theorem of Li and Postle then yields the required independent set.
+An $r$-uniform loose triangle $C_3$ consists of three edges that intersect pairwise in exactly one vertex and have no vertex common to all three.
+For graphs, this is the usual triangle, and the Ramsey number $R(C_3,K_t)$ has order of magnitude $t^2/\log t$ by celebrated results of Ajtai, Komlós, and Szemerédi and of Kim.
+
+Kostochka, Mubayi, and Verstraëte proved that $R(C_3,K_t^{(r)})=O_r(t^{3/2})$ for every fixed $r\ge3$ and showed that this bound is sharp up to a logarithmic factor.
+Motivated by the logarithmic saving in the graph case, they conjectured in 2013 that the upper bound could be improved to $o(t^{3/2})$.
+This conjecture has since received significant attention and has been reiterated in several papers.
+We prove the conjecture by showing that, for every fixed $r\ge3$,
+
+$$
+R(C_3,K_t^{(r)}) =O_r\left(\frac{t^{3/2}}{\sqrt{\log\log t}}\right).
+$$
 
 ### [Nearly linear directed cycles in vertex-transitive digraphs](https://github.com/methuku-git-hub/Nearly-linear-directed-cycles-in-vertex-transitive-digraphs)
 
