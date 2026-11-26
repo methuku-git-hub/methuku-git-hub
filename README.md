@@ -6,7 +6,7 @@ I work in **probabilistic and extremal combinatorics**.
 
 ## Research projects
 
-### [A simplified proof of a lower bound for locally Ramsey graphs](https://github.com/methuku-git-hub/locally-ramsey-lean)
+### [Improved bounds for locally Ramsey graphs](https://github.com/methuku-git-hub/locally-ramsey-lean)
 
 **Paper authors:** József Balogh, Matija Bucić, Haoran Luo and Abhishek Methuku.
 
