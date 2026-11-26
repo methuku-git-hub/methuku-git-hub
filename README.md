@@ -30,6 +30,8 @@ a conjecture of Mattheus, Mubayi, Nie and Verstraëte.
 
 The repository formalizes both bounds in Theorem 1 in Lean.
 
+[Lean formalisation (Palomar; registered 25 November 2026)](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-26-000030&version=1)
+
 **Paper abstract**
 
 With logarithms to base two, let $m(n)$ be the least $m$ for which
