@@ -6,6 +6,24 @@ I work in **probabilistic and extremal combinatorics**.
 
 ## Research projects
 
+### [On the Ramsey number of a tight path of length 3 versus a clique](https://github.com/methuku-git-hub/tp3-ramsey-lean)
+
+**Paper authors:** Abhishek Dhawan and Abhishek Methuku.
+
+The repository formalizes the paper’s main Ramsey theorem in Lean.
+
+**Paper abstract**
+
+Let $r(P_s,t)$ denote the Ramsey number of the 3-uniform tight path with
+$s$ edges versus a clique on $t$ vertices. Results of Phelps and Rödl give
+$r(P_2,t)=\Theta(t^2/\log t)$. In 2013, Cooper and Mubayi proved that
+$r(P_s,t)=\Theta(t^2)$ for every fixed $s\ge4$. For the remaining case
+$s=3$, they asked for the order of $r(P_3,t)$, a question later reiterated
+by Bohman, Mubayi and Picollelli. Together, these results give a lower bound
+of $\Omega(t^2/\log t)$ and an upper bound of $O(t^2)$ for $r(P_3,t)$.
+We improve the upper bound to $O(t^2/\log\log t)$, making progress towards
+a conjecture of Mattheus, Mubayi, Nie and Verstraëte.
+
 ### [Improved bounds for locally Ramsey graphs](https://github.com/methuku-git-hub/locally-ramsey-lean)
 
 **Paper authors:** József Balogh, Matija Bucić, Haoran Luo and Abhishek Methuku.
