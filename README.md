@@ -6,6 +6,30 @@ I work in **probabilistic and extremal combinatorics**.
 
 ## Research projects
 
+### [A simplified proof of a lower bound for locally Ramsey graphs](https://github.com/methuku-git-hub/locally-ramsey-lean)
+
+**Paper authors:** József Balogh, Matija Bucić, Haoran Luo and Abhishek Methuku.
+
+The repository formalizes both bounds in Theorem 1 in Lean.
+
+**Paper abstract**
+
+Let $m_n(r)$ be the least $m$ for which some $n$-vertex graph
+contains both a clique and an independent set of order $r$ in every
+set of $m$ vertices. With logarithms to base two, put $r=\lceil\log n\rceil$.
+In 1991 Erdős asked whether $m_n(r)\le\lceil(\log n)^3\rceil$
+for arbitrarily large $n$. We answer this question negatively by proving that
+
+$$
+m_n(r)>\frac{(\log n)^{7/2}}{(\log\log n)^{24}}
+$$
+
+for all sufficiently large $n$.
+This improves the lower bound of Alon and Sudakov (2007).
+We also give a simple construction that improves the upper bound of
+Alon, Bucić and Sudakov (2021) from $2^{\,2^{(\log\log n)^{1/2+o(1)}}}$
+to $2^{(9/2+o(1))(\log\log n)^2}$.
+
 ### [Sharp Dirac thresholds for the generalized Oberwolfach problem](https://github.com/methuku-git-hub/generalized-oberwolfach-lean)
 
 **Paper authors:** Dong Yeap Kang, Abhishek Methuku and Pablo Oviedo.
