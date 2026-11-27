@@ -12,6 +12,8 @@ I work in **probabilistic and extremal combinatorics**.
 
 The repository formalizes Theorem 1.1 in Lean.
 
+[Lean formalisation (Palomar; registered 27 November 2026)](https://palomar-registry.org/entry?id=PALOMAR-2026-11-27-000050&version=1)
+
 **Paper abstract**
 
 In 2002, Vu conjectured that, for every fixed $\zeta>0$, every graph of maximum degree $\Delta$ in which any two distinct vertices have at most $\zeta\Delta$ common neighbors can be properly colored from arbitrary lists of $(\zeta+o(1))\Delta$ colors per vertex. In this paper we prove Vu’s conjecture.
