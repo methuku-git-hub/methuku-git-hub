@@ -6,6 +6,16 @@ I work in **probabilistic and extremal combinatorics**.
 
 ## Research projects
 
+### [A proof of Vu’s conjecture](https://github.com/methuku-git-hub/vu-list-coloring)
+
+**Paper author:** Abhishek Methuku.
+
+The repository formalizes Theorem 1.1 in Lean.
+
+**Paper abstract**
+
+In 2002, Vu conjectured that, for every fixed $\zeta>0$, every graph of maximum degree $\Delta$ in which any two distinct vertices have at most $\zeta\Delta$ common neighbors can be properly colored from arbitrary lists of $(\zeta+o(1))\Delta$ colors per vertex. In this paper we prove Vu’s conjecture.
+
 ### [On the Ramsey number of a tight path of length 3 versus a clique](https://github.com/methuku-git-hub/tp3-ramsey-lean)
 
 **Paper authors:** Abhishek Dhawan and Abhishek Methuku.
